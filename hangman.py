@@ -134,8 +134,6 @@ def hangman(secretWord):
         
             
 
-
-
-
-# secretWord = chooseWord(wordlist).lower()
-# hangman(secretWord)
+#starting the game 
+secretWord = chooseWord(wordlist).lower()
+hangman(secretWord)
